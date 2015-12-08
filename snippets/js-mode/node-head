@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+#name : node-head
+# --
+/* jslint node: true */
+'use strict'; 
+
+$0

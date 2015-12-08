@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : jquery
+# --
+$(document).ready(function () {
+  $0
+});

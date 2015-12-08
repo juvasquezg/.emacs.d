@@ -36,3 +36,28 @@
 ;; Setup packages
 (require 'setup-package)
 
+
+;; Save point position between sessions
+(require 'saveplace)
+(setq-default save-place t)
+(setq save-place-file (expand-file-name ".places" user-emacs-directory))
+
+;; Install extensions if they're missing
+(defun init--install-packages ()
+  (packages-install
+   '(yasnippet
+     js2-mode
+    )))
+
+(condition-case nil
+    (init--install-packages)
+  (error
+   (package-refresh-contents)
+   (init--install-packages)))
+
+;; Setup extensions
+(require 'setup-yasnippet)
+
+;; Language specific setup files
+;; Language specific setup files
+(eval-after-load 'js2-mode '(require 'setup-js2-mode))
