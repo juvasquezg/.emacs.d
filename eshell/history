@@ -2,3 +2,4 @@ user-emacs-directory
 (expand-file-name "site-lisp" user-emacs-directory)
 tab-bar-mode
 tool-bar-mode 
+tool-bar-mode 
