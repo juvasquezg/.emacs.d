@@ -6,6 +6,9 @@
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)
 
+;; display “lambda” as “λ”
+(global-prettify-symbols-mode 1)
+
 ;; Set path to dependencies '~/home/.emacs.d/site-lisp'
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
