@@ -25,13 +25,15 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
-;; Set up appearance early
-(require 'appearance)
 
 ;; Add external projects to load path
 (dolist (project (directory-files site-lisp-dir t "\\w+"))
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
+
+
+;; Set up appearance early
+(require 'appearance)
 
 ;; Setup packages
 (require 'setup-package)
@@ -47,6 +49,7 @@
   (packages-install
    '(yasnippet
      js2-mode
+     js2-refactor
     )))
 
 (condition-case nil

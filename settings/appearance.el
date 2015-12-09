@@ -14,4 +14,15 @@
   (tooltip-mode -1)
   (blink-cursor-mode -1))
 
+;; Unclutter the modeline
+(require 'diminish)
+(eval-after-load "yasnippet" '(diminish 'yas-minor-mode))
+
+(defmacro rename-modeline (package-name mode new-name)
+  `(eval-after-load ,package-name
+     '(defadvice ,mode (after rename-modeline activate)
+        (setq mode-name ,new-name))))
+
+(rename-modeline "js2-mode" js2-mode "JS2")
+
 (provide 'appearance)
