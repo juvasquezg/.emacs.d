@@ -4,3 +4,4 @@ tab-bar-mode
 tool-bar-mode 
 tool-bar-mode 
 tool-bar-mode
+(message "Hola Mundo")
