@@ -66,8 +66,7 @@
 (require 'setup-yasnippet)
 
 ;; Language specific setup files
-;; Language specific setup files
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
 
-(autoload 'js2-mode "js2-mode" nil t)
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+;; Map files to modes -> js2-mode, python-mode...
+(require 'mode-mappings)
