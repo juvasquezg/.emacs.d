@@ -1,0 +1,192 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine, versi¢n 14.0.23107.0
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 13/12/2015 1:22:34 p. m..
+Proyecto "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se crear  "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj]
+Compilaci¢n del proyecto terminada "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.47
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/gc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine, versi¢n 14.0.23107.0
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 13/12/2015 1:22:35 p. m..
+Proyecto "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se crear  "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Compilaci¢n del proyecto terminada "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.47
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine, versi¢n 14.0.23107.0
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 13/12/2015 1:22:47 p. m..
+Proyecto "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se crear  "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj]
+Compilaci¢n del proyecto terminada "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.38
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine, versi¢n 14.0.23107.0
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 13/12/2015 1:22:48 p. m..
+Proyecto "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se crear  "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Compilaci¢n del proyecto terminada "C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib' [C:\home\.emacs.d\CMakeFiles\3.4.1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.35
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Determining if the CXX compiler works failed with the following output:
+Change Dir: C:/home/.emacs.d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ff1da.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, versi¢n 14.0.23107.0
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 13/12/2015 1:22:49 p. m..
+Proyecto "C:\home\.emacs.d\CMakeFiles\CMakeTmp\cmTC_ff1da.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_ff1da.dir\Debug\".
+  Creando directorio "C:\home\.emacs.d\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_ff1da.dir\Debug\cmTC_ff1da.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_ff1da.dir\Debug\cmTC_ff1da.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff1da.dir\Debug\\" /Fd"cmTC_ff1da.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\home\.emacs.d\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff1da.dir\Debug\\" /Fd"cmTC_ff1da.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\home\.emacs.d\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\home\.emacs.d\CMakeFiles\CMakeTmp\Debug\cmTC_ff1da.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/home/.emacs.d/CMakeFiles/CMakeTmp/Debug/cmTC_ff1da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/home/.emacs.d/CMakeFiles/CMakeTmp/Debug/cmTC_ff1da.lib" /MACHINE:X86 /SAFESEH cmTC_ff1da.dir\Debug\testCXXCompiler.obj
+LINK : fatal error LNK1104: cannot open file 'MSVCRT.lib' [C:\home\.emacs.d\CMakeFiles\CMakeTmp\cmTC_ff1da.vcxproj]
+Compilaci¢n del proyecto terminada "C:\home\.emacs.d\CMakeFiles\CMakeTmp\cmTC_ff1da.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\home\.emacs.d\CMakeFiles\CMakeTmp\cmTC_ff1da.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  LINK : fatal error LNK1104: cannot open file 'MSVCRT.lib' [C:\home\.emacs.d\CMakeFiles\CMakeTmp\cmTC_ff1da.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.40
+
+
